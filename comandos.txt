@@ -1,0 +1,43 @@
+Comandos de consola
+
+
+comandos primera vez (hablando de mi casa)
+
+-identificarse
+git config user.name TomasLuna
+git config user.email Conradoluna20@gmail.com
+
+-file/preferences/folder/compact folders
+
+-instalar node.js
+-verificar si esta instalado:
+node -v
+
+-instalar npm
+-verificar instalacion de npm:
+npm -v
+-alternativa npm: pnpm (instalar ambos)
+
+-instalar manejador de paquetes pnpm:
+npm i -g pnpm
+
+-verificar instalacion de pnpm:
+pnpm -v
+
+Por proyecto:
+situarse en la carpeta de proyecto:
+cd "e:\Escritorio\AW1-TomasLuna\Clase 8"
+
+-verificar si existe package.json, si no existe ejecutamos:
+pn init
+
+-instalar el paquete extencion five server:
+pn add five-server
+
+-reinstalar paquetes si existe package.json:
+pn install
+
+-desinstalar equivocados:
+pn rn file-server
+
+-configurar scripts -> "dev":"five-server"

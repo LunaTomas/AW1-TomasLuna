@@ -1,0 +1,21 @@
+/* sintaxis
+
+regla de cierro (rule)
+selector{
+    propiedad1: valor;
+    propiedad2: valor;
+    propiedad∞: valor;
+} */
+
+/* selectores de tipo: nombre de la etiqueta */
+
+body{
+    background-color:#ffffe0; /* #ffffff #000000 */
+}
+
+header{
+    background-color:lightblue;
+}
+footer{
+    background-color: lightcyan;
+}
