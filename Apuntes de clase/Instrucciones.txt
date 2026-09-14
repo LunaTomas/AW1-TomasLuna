@@ -1,0 +1,29 @@
+TRABAJAR CON LA CONSOLA command prompt -> cmd
+
+npm i -g pnpm (solo si no está instalado)
+
+Pasos nuevo proyecto:
+
+cd "e:\Escritorio\AW1-TomasLuna\Clase X"
+
+pn init (inicializamos)
+pn add five-server (instalamos paquetes necesarios)
+
+// Configuramos package.json
+"scripts": {
+  "dev": "five-server"
+}
+// Guardar
+
+// Creamos archivo de configuración de five-server
+// .fiveserverrc
+{
+  "root": "src"
+}
+
+// Creamos directorio del proyecto
+
+src/
+
+// Arrancamos proyecto
+pn dev

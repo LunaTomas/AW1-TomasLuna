@@ -1,0 +1,5 @@
+orden de prioridad:
+universal
+typo
+clase atributo
+id
